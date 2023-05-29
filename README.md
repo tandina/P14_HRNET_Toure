@@ -29,9 +29,9 @@ to get the Api
 npm install
 
 # Start local dev server
-nodemone server
+nodemon server
 
-
+nodemon server will start listening on port 3000
 then you can install and start the frontend side
 
 
