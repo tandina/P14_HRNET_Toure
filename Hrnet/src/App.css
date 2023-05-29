@@ -1,0 +1,272 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.hrnet-logo {
+  width: 11%;
+  padding-top: 20px;
+  display: block;
+  margin: auto;
+}
+.employeeData {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.formstyle {
+  width: 40%;
+}
+.create-employee {
+  text-align: center;
+}
+.edit-button {
+  border-color: #17382cc3;
+  background-color: #416c5c;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+.employees-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.employees-container img {
+  width: 147px;
+  height: 100px;
+}
+
+.employees-container p {
+  width: 20px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+.employees-logo {
+  background-color: #193d09;
+  padding: 1.5em;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.sales-logo {
+  background-color: #36550d;
+  padding: 1.5em;
+}
+.commercial-logo {
+  background-color: #8fa48f;
+  padding: 1.5em;
+}
+.rh-logo {
+  background-color: #a39171;
+  padding: 1.5em;
+  margin-top: 19px;
+}
+.juridique-logo {
+  background-color: #dcc9b6;
+  padding: 1.5em;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.arrowUp {
+  color: green;
+}
+.arrowDown {
+  color: green;
+  rotate: 30deg;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.modal-message {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.modal-close {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.modal-close:hover {
+  text-decoration: underline;
+}
+
+input[type="number"] {
+  appearance: textfield;
+}
+.error {
+  color: #fc8181;
+  font-size: 0.75rem;
+  text-align: left;
+  margin-top: 0.25rem;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+nav h3 {
+  margin: 1rem;
+  cursor: pointer;
+  color: #718096;
+}
+nav h3:hover {
+  color: white;
+}
+
+form label {
+  font-size: 1rem;
+  font-weight: bold;
+  display: block;
+  text-align: left;
+  margin: 1rem 0 0.2rem;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.65rem 0.5rem;
+  font-size: 1rem;
+  color: white;
+  border: 2px solid #4a5568;
+  background-color: #0e5412;
+  border-radius: 10px;
+  outline: none;
+}
+
+input:focus,
+select:focus {
+  border-color: #4299e1;
+}
+
+input::placeholder,
+select::placeholder {
+  color: white;
+}
+.searchBar {
+  margin-top: 20px;
+}
+input[type="checkbox"] {
+  width: fit-content;
+  margin-right: 0.5rem;
+  transform: scale(1.25);
+}
+.btn-container {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  display: block;
+  margin: 1rem 0;
+  padding: 0.35rem 0.5rem;
+  background-color: #0e5412;
+  color: #7bee86;
+  border: none;
+  border-radius: 3px;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.th-style {
+  color: white;
+  background: #629552 !important;
+  border: none;
+  font-size: 21px;
+}
+.add-worker {
+  text-align: center;
+}
+.table thead th {
+  border-bottom: 2px solid #9dae25;
+  border-bottom-width: 2px;
+  border-bottom-width: 8px;
+}
+.table-bordered td,
+.table-bordered th {
+  border: none;
+}
+input.input-error,
+select.input-error {
+  border-color: #fc8181;
+}
+
+button:disabled {
+  opacity: 0.35;
+}
+.global-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.sub-btn {
+  width: 117px;
+}
+.incomplete {
+  cursor: default;
+}
