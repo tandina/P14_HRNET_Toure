@@ -31,6 +31,8 @@ npm install
 # Start local dev server
 nodemon server
 
+DONT FORGET TO INSTALL npm install -g nodemon
+
 nodemon server will start listening on port 3000
 then you can install and start the frontend side
 
